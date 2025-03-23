@@ -20,7 +20,7 @@ To start scanning, use the following command:
 ```
 gobuster dir -u http://standard-pizzas.picoctf.net:(port)/ -w /conmmon.txt
 ```
-With [common.txt](](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common.txt)) is a list of common directories and files.
+With [common.txt](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common.txt) is a list of common directories and files.
 
 After running the scan, you may see output like this:
 ```
@@ -65,4 +65,4 @@ Now, execute `sudo ls -la /root`, and you'll find a file named flag.txt. Finally
 sudo cat /root/flag.txt
 ```
 
-The flag is: `picoCTF{wh47_c4n_u_d0_wPHP_5f******`
+The flag is: `picoCTF{wh47_c4n_u_d0_wPHP_5f******}`
